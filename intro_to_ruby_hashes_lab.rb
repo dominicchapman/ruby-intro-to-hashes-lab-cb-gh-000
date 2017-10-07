@@ -3,7 +3,8 @@ def new_hash
 end
 
 def actor
-
+  # creates a hash named actor whose key is a symbol :name and whose value is a string, 'Dwayne The Rock Johnson'
+  actor = { name: "Dwayne The Rock Johnson" }
 end
 
 def monopoly
