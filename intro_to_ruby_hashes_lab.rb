@@ -9,7 +9,8 @@ def actor
 end
 
 def monopoly
-	monopoly = {}
+ # add a key-value pair to the monopoly hash. The key should be :railroads and the value should be an empty hash
+	monopoly = { railsroads: {} }
 
 end
 
