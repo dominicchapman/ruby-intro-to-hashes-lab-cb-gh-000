@@ -33,10 +33,19 @@ def monopoly_with_third_tier
   # set the 2nd key of the :rent_in_dollars hash to a symbol, :two_pieces_owned, whose value is the integer 50
   # set the 3rd key of the :rent_in_dollars hash to a symbol, :three_pieces_owned, whose value is the integer 100
   # set the 4th key of the :rent_in_dollars hash to a symbol, :four_pieces_owned, whose value is the integer 200
+  # set the 1st key of the :names hash to a symbol, :reading_railroad, whose value is an empty hash
+  # set the 2nd key of the :names hash to a symbol, :pennsylvania_railroad, whose value is an empty hash
+  # set the 3rd key of the :names hash to a symbol, :b_and_o_railroad, whose value is an empty hash
+  # set the 4th key of the :names hash to a symbol, :shortline, whose value is an empty hash
   monopoly = {
     railroads: {
       pieces: 4,
-      names: {},
+      names: {
+        reading_railroad: {},
+        pennsylvania_railroad: {},
+        b_and_o_railroad: {},
+        shortline: {},
+      },
       rent_in_dollars: {
         one_piece_owned: 25,
         two_pieces_owned: 50,
