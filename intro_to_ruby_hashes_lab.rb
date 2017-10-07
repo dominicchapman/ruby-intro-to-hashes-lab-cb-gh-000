@@ -17,11 +17,13 @@ end
 
 def monopoly_with_second_tier
   #set the first key of the :railroads hash to a symbol, :pieces, whose value is the integer 4
-  # sets the second key of the :railroads hash to a symbol, :names, whose value is an empty hash
+  # set the second key of the :railroads hash to a symbol, :names, whose value is an empty hash
+  # set the third key of the :railroads hash to a symbol, :rent_in_dollars, whose value is an empty hash
   monopoly = {
     railroads: {
       pieces: 4,
-      names: {}
+      names: {},
+      rent_in_dollars: {}
     }
   }
 end
