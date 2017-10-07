@@ -11,7 +11,7 @@ end
 def monopoly
  # add a key-value pair to the monopoly hash. The key should be :railroads and the value should be an empty hash
 	monopoly = {
-    railroads: {} 
+    railroads: {}
   }
 end
 
@@ -20,7 +20,7 @@ def monopoly_with_second_tier
   monopoly = {
     railroads: {
       pieces: 4
-    } 
+    }
   }
 end
 
